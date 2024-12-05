@@ -82,16 +82,16 @@ Once your layer is published, GeoServer will automatically expose the layer thro
 
 Check if WMS is enabled: By default, GeoServer will expose layers via WMS. You can check the service at:
 
-bash
-Copy code
+```SHELL
 http://localhost:9091/geoserver/customspatialworkspace/ows?service=WMS&version=1.1.1&request=GetCapabilities
-Check if WFS is enabled: Similarly, you can check if WFS is enabled at:
 
-bash
-Copy code
+Check if WFS is enabled: Similarly, you can check if WFS is enabled at:
+```
+
+```SHELL
 http://localhost:9091/geoserver/customspatialworkspace/ows?service=WFS&version=1.1.0&request=GetCapabilities
 You can use the WMS or WFS URLs in your Leaflet map to display the layer.
-
+```
 
 
 
