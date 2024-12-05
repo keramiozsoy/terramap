@@ -84,14 +84,13 @@ Check if WMS is enabled: By default, GeoServer will expose layers via WMS. You c
 
 ```SHELL
 http://localhost:9091/geoserver/customspatialworkspace/ows?service=WMS&version=1.1.1&request=GetCapabilities
-
-Check if WFS is enabled: Similarly, you can check if WFS is enabled at:
 ```
+Check if WFS is enabled: Similarly, you can check if WFS is enabled at:
 
 ```SHELL
 http://localhost:9091/geoserver/customspatialworkspace/ows?service=WFS&version=1.1.0&request=GetCapabilities
-You can use the WMS or WFS URLs in your Leaflet map to display the layer.
 ```
+You can use the WMS or WFS URLs in your Leaflet map to display the layer.
 
 
 
