@@ -1,5 +1,18 @@
 # terramap
 
+
+
+
+```SHELL
+cd backend & node server.js
+```
+```SHELL
+cd frondend & http-server
+```
+```SHELL
+http://127.0.0.1:8080/frontend/
+```
+
 - https://github.com/Leaflet/Leaflet
 - https://github.com/elastic/elasticsearch
 
