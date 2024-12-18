@@ -1,5 +1,6 @@
 # terramap
 
+![plot](./images/image.png)
 
 
 
