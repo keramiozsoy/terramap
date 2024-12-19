@@ -5,13 +5,27 @@
 
 
 ```SHELL
-cd backend & node server.js
+cd backend && node server.js
 ```
 ```SHELL
-cd frondend & http-server
+cd frontend && http-server
 ```
 ```SHELL
 http://127.0.0.1:8080/frontend/
+```
+```SHELL
+docker run -d -p 27017:27017 --name terramap-mongodb mongo:latest
+
+docker start terramap-mongodb
+docker stop terramap-mongodb
+```
+
+```SHELL
+curl -X GET http://127.0.0.1:6000/api/data
+
+curl -X POST http://127.0.0.1:6000/api/data \
+-H "Content-Type: application/json" \
+-d '{"name": "New Data", "coordinates": {"lat": 40.7128, "lon": -74.0060}}'
 ```
 
 - https://github.com/Leaflet/Leaflet
