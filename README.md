@@ -3,7 +3,7 @@
 ![plot](./images/image2.png)
 
 
-
+## Run Project
 ```SHELL
 cd backend && node server.js
 ```
